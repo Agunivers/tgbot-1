@@ -1,60 +1,59 @@
+
 {
-  "name": "Spoidermon",
+  "name": "Marie-2.0 English",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
-  "logo": "https://telegra.ph/file/17396c82cc99c597e6366.jpg",
   "keywords": [
     "telegram",
     "best",
     "group",
     "manager",
-    "3",
-    "plugin",
-    "modular",
-    "productivity"
+    "3"
   ],
   "repository": "https://github.com/Agunivers/tgbot-1",
   "env": {
     "ENV": {
-      "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
+      "description": "Setting this to ANYTHING will enable env variables",
       "value": "ANYTHING"
     },
     "TOKEN": {
-      "description": "Your bot token, as a string."
+      "description": "Your bot token, as a string.",
+      "value": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1323557247"
+      "value": "683538773"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "Spoidermon12"
+      "value": "ViruZs"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
       "value": "ANYTHING"
     },
     "URL": {
-      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/"
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": ""
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "required": false
+      "value": "-1007777777777"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "1323557247"
+      "value": "254318997 683538773 570400686 466337795"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "1323557247"
+      "value": "254318997 683538773 570400686 466337795"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "1323557247"
+      "value": "254318997 683538773 570400686 466337795"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://www.paypal.me/PaulSonOfLars"
+      "value": "https://www.paypal.me/Your_id_here"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
@@ -74,13 +73,7 @@
     },
     "BAN_STICKER": {
       "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
-      "value": "CAADBQADfQADv7rGI0wxx1ORU7UzAg",
-      "required": false
-    },
-    "BMERNU_SCUT_SRELFTI": {
-      "description": "please set this value as 0",
-      "value": "1",
-      "required": false
+      "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
     }
   },
   "addons": [
@@ -90,14 +83,5 @@
         "version": "12"
       }
     }
-  ],
-  "stack": "heroku-20",
-  "buildpacks": [],
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
+  ]
 }
-Footer
